@@ -34,7 +34,7 @@ end
 
 
 # create GUI with Shoes :)
-Shoes.app width: 320, height: 350, title: 'Форма 1' do
+Shoes.app width: 500, height: 500, title: 'Форма 1' do
 
   # first layer
   stack :margin => 30 do
@@ -68,7 +68,7 @@ Shoes.app width: 320, height: 350, title: 'Форма 1' do
       button "Старт" do
 
         # create new form
-        Shoes.app width: 500, height: 500 do
+        Shoes.app title: 'Задание к билету № n', width: 500, height: 500 do
           # some layer)
           stack do
 
